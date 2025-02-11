@@ -1,0 +1,12 @@
+### 시각화 라이브러리 정의
+# - 파이썬에서 사용되는 기본 시각화 라이브러리
+import matplotlib.pyplot as plt
+
+# - 히트맵 라이브러리
+import seaborn as sns
+
+# - 한글처리
+plt.rc("font", family="NanumGothic")
+
+# 마이너스 기호 깨짐 처리
+plt.rcParams["axes.unicode_minus"] = False 
