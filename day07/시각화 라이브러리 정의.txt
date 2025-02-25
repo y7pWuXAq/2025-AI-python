@@ -1,0 +1,22 @@
+### 데이터 처리
+import pandas as pd
+
+### 시각화 처리
+# - 파이썬에서 사용되는 기본 시각화 라이브러리
+import matplotlib.pyplot as plt
+
+# - 히트맵 라이브러리
+import seaborn as sns
+
+# 지도 시각화
+import folium
+
+# json 데이터 처리
+# - json 데이터는 딕셔너리와 동일
+import json
+
+# - 한글처리
+plt.rc("font", family="NanumGothic")
+
+# 마이너스 기호 깨짐 처리
+plt.rcParams["axes.unicode_minus"] = False 
